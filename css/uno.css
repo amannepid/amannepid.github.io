@@ -1059,7 +1059,7 @@ pre {
 
 .excerpt {
 	margin: 0;
-	font-size: .9em;
+	font-size: 1em;
 	color: #999999; }
 
 .intro {
@@ -1110,7 +1110,7 @@ pre {
 	display: block;
 	padding: 2em 0 0 0;
 	border-top: 2px solid #dddddd;
-	font-size: .7em;
+	font-size: .8em;
 	color: #b3b3b3; }
 
 .footer__copyright {
@@ -1438,7 +1438,7 @@ i {
 .post-list__post-title {
 	margin-top: 0;
 	margin-bottom: .2em;
-	font-size: 1.5em;
+	font-size: 1.6em;
 	line-height: 1.3em; }
 	.post-list__post-title a {
 		color: #333333; }
@@ -1448,7 +1448,7 @@ i {
 .post-list__meta {
 	display: block;
 	margin: .7em 0 0 0;
-	font-size: .9em;
+	font-size: 1em;
 	color: #c7c7c7; }
 
 .post-list__meta--date {
