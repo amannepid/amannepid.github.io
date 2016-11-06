@@ -1191,13 +1191,13 @@ hr {
 
 .panel-title {
 	margin: 0 0 5px 0;
-	font-size: 2.5em;
+	font-size: 2.75em;
 	letter-spacing: 4px;
 	color: #FFF; }
 
 .panel-subtitle {
 	font-family: "Roboto Slab", serif;
-	font-size: 1.2em;
+	font-size: 1.6em;
 	font-weight: lighter;
 	letter-spacing: 3px;
 	color: #cccccc;
@@ -1572,7 +1572,7 @@ input[type="tel"] {
 
 	.panel-cover__description {
 		margin: 0 10px;
-		font-size: .9em; }
+		font-size: .99em; }
 
 	.navigation--social {
 		margin-top: 5px;
