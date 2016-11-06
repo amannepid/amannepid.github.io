@@ -1,126 +1,42 @@
 # Site settings
-name: Aman Nepid
-description: "Break some rules ... make some noise"
-url: ""
-title: Aman Nepid - Android, Java, Design, Learner
+title: Aman Nepid
+description: 'Break Some Rules ... Make Some Noise'
+url: 'amannepid.github.io'
+# baseurl: '/jekyll-uno/'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
 
-# Delete the lines you don't need
-github_username:  amannepid
-twitter_username: amannepid
-linkedin_username: nepid
-stack_of_username: 656390/aman-nepid
-medium_username:  amannepid
-blog_url: "/blog"
-email: aman.nepid@gmail.com
+avatar_path: https://avatars1.githubusercontent.com/u/1026439
 
-avatar: yes
-avatar_img_path: "https://avatars1.githubusercontent.com/u/1026439"
+author:
+  name: 'Dipendra Sunar'
+  email: aman.nepid@gmail.com
+  twitter_username: amannepid
+  # facebook_username: joshgerdes
+  github_username:  amannepid
+  linkedin_username:  nepid
 
-front_img: yes
-front_img_path: "imgs/bg.jpg"
-
-favicon_img: yes
-favicon_img_path: "imgs/favicon.ico"
-
-# Build settings
-# markdown: kramdown
-# permalink: pretty
-
-# Pixyll below #############
-date_format: "%b %-d, %Y"
-
-# Google services
-google_verification:
-# Use either direct GA implementation or set up GTM account
-# - using both will skew your data (leave blank to not use at all)
-google_analytics:
-google_tag_manager:
-# Bing services
-bing_verification:
-
-# Optional features
-animated:             false
-show_related_posts:   false
-show_post_footers:    false
-show_social_icons:    false
-ajaxify_contact_form: false
-enable_mathjax: false
-extended_fonts: false
-enable_anchorjs: false
-
-# Facebook Page integration
-# (for instant articles and other stuff)
-fb_page: false
-fb_page_id:
-
-# Disqus post comments
-# (leave blank to disable Disqus)
-disqus_shortname:
-
-# Facebook Comments plugin
-# (leave blank to disable Facebook Comments, otherwise set it to true)
-facebook_comments:
-facebook_appid:
-facebook_comments_number: 10
-
-# Post sharing icons
-show_sharing_icons: false
-# Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
-share_googleplus: false
-share_linkedin: false
-share_digg: false
-share_tumblr: false
-share_reddit: false
-share_stumbleupon: false
-share_hackernews: false
-
-text:
-  pagination:
-    newer: 'Newer'
-    older: 'Older'
-  share_buttons:
-    text:         'Share this post!'
-    facebook:     'Share on Facebook'
-    twitter:      'Share on Twitter'
-    googleplus:   'Share on Google+'
-    linkedin:     'Share on LinkedIn'
-    digg:         'Share on Digg'
-    tumblr:       'Share on Tumblr'
-    reddit:       'Share on Reddit'
-    stumbleupon:  'Share on StumbleUpon'
-    hackernews:   'Share on Hacker News'
-  post:
-    updated:        'Updated'
-    minute_read:    'minute read'
-    related_posts:  'Related Posts'
-  index:
-    coming_soon: 'Coming soon...'
-  contact:
-    email:    'Email Address'
-    content:  'What would you like to say?'
-    subject:  'New submission!'
-    submit:   'Say Hello'
-    ajax:
-      sending:  'sending..'
-      sent:     'Message sent!'
-      error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
-  og_locale: 'en_US'
-
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
 # Build settings
-markdown:     kramdown
-redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
-paginate: 4
-paginate_path: "/blog/page:num"
-sass:
-  compressed: true
-gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-# https://github.com/jekyll/jekyll/issues/2938
-exclude: [vendor]
+destination: _site
+paginate: 5
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
