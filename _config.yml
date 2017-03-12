@@ -1,6 +1,7 @@
 # Site settings
 title: Aman Nepid
 description: 'Break Some Rules ... Make Some Noise'
+sub_description: 'A man on earth with Designer Heart & Developer Soul.'
 url: 'amannepid.github.io'
 # baseurl: '/jekyll-uno/'
 baseurl: '/'
