@@ -11,7 +11,7 @@ You can expect some `Android`, `Java` related stuffs here. Also as I am fan of c
 Anyways, thanks for you time.
 
 ```java
-import ready.to.blog;
+package ready.to.blog;
 
 public class StartBlog{
 
