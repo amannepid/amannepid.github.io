@@ -11,7 +11,7 @@ avatar_path: https://avatars1.githubusercontent.com/u/1026439
 
 author:
   name: 'Dipendra Sunar'
-  email: aman.nepid@gmail.com
+  # email: aman.nepid@gmail.com
   twitter_username: amannepid
   # facebook_username: joshgerdes
   github_username:  amannepid
@@ -39,4 +39,6 @@ kramdown:
   hard_wrap: false
 
 gems: ['jekyll-paginate']
+gems:
+  - jemoji
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
