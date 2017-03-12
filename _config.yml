@@ -42,4 +42,6 @@ gems: ['jekyll-paginate']
 
 gems:
   - jemoji
+  - jekyll-paginate
+  
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock']
