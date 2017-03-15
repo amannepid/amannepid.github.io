@@ -92,6 +92,7 @@ GEM
       coffee-script (~> 2.2)
     jekyll-compose (0.5.0)
       jekyll (>= 3.0.0)
+    jekyll-crosspost-to-medium (0.1.14)
     jekyll-default-layout (0.1.4)
       jekyll (~> 3.0)
     jekyll-feed (0.9.1)
@@ -199,6 +200,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-compose
+  jekyll-crosspost-to-medium
   jemoji
 
 BUNDLED WITH

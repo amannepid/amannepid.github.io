@@ -44,5 +44,6 @@ kramdown:
 gems:
   - jemoji
   - jekyll-paginate
+  - jekyll-crosspost-to-medium
 
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock']

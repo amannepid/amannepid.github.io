@@ -3,6 +3,7 @@ title:  "Hello World!!"
 date:   2017-03-12 11:44:23
 categories: [post]
 tags: [start]
+crosspost_to_medium: true
 ---
 After long time of `procrastination`, finally I am feeling boost up to write something in my so called `hobby blog`.
 
