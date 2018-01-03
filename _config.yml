@@ -5,6 +5,7 @@ sub_description: 'A man on earth with Designer Heart & Developer Soul.'
 url: 'amannepid.github.io'
 # baseurl: '/jekyll-uno/'
 baseurl: '/'
+root: /
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
