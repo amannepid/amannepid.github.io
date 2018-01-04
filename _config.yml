@@ -46,7 +46,7 @@ kramdown:
 
 #gems: ['jekyll-paginate']
 
-gems:
+plugins:
   - jemoji
   - jekyll-paginate
   - jekyll-crosspost-to-medium
