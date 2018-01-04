@@ -2,7 +2,6 @@
 layout: post
 title: Discovering Alpha for Your ARGB
 tags: [Android, UI/UX, Material Design]
-crosspost_to_medium: true
 ---
 Hey Rockstar, do you know `what is the hex color value of 75% Black color?` Is it `#BF000000`?
 

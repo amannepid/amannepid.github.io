@@ -3,7 +3,6 @@ layout: post
 title: Kickstart Android Studio Plugins
 categories: [post]
 tags: [Android, Plugins, Android Studio]
-crosspost_to_medium: true
 ---
 After almost a year of planning a.k.a. laziness, I am finally writing a post on the `Android Studio Plugins` that I use when starting with fresh Android installation.
 I will be listing them and giving some quick intro. I hope this will help some and mainly I am trying to make sure that I don't forget them and find the list easily. :blush:
