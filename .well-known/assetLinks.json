@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.bcbsa.fepblue",
+    "sha256_cert_fingerprints":
+    ["4F:80:62:82:97:74:D7:B7:14:9D:8D:AF:9D:2A:AC:AD:76:44:BE:BA:22:2B:55:D3:04:23:90:C3:3E:72:09:14"]
+  }
+}]
